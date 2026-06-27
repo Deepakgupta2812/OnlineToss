@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0d1535"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <ellipse cx="600" cy="315" rx="280" ry="280" fill="url(#glow)"/>
+  <!-- Coin -->
+  <ellipse cx="600" cy="270" rx="160" ry="160" fill="#FFD700" opacity="0.95"/>
+  <ellipse cx="600" cy="270" rx="130" ry="130" fill="#CC9900" opacity="0.6"/>
+  <text x="600" y="295" text-anchor="middle" font-size="100" font-family="serif" fill="#7A5800" font-weight="bold">H</text>
+  <!-- Title -->
+  <text x="600" y="510" text-anchor="middle" font-size="56" font-family="Georgia, serif" fill="#FFD700" font-weight="bold" letter-spacing="6">ONLINE COIN TOSS</text>
+  <text x="600" y="560" text-anchor="middle" font-size="22" font-family="Georgia, serif" fill="#38BDF8" letter-spacing="8">PREMIUM 3D EXPERIENCE</text>
+</svg>
